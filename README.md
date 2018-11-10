@@ -1,6 +1,6 @@
 # About
 
-Customized jwilder/nginx-proxy docker image in order to increase client_max_body_size.
+Customized [jwilder/nginx-proxy](https://github.com/jwilder/nginx-proxy) docker image in order to increase client_max_body_size.
 
 # HowTo
 

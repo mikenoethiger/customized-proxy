@@ -14,6 +14,7 @@ Customized [jwilder/nginx-proxy](https://github.com/jwilder/nginx-proxy) docker 
 
 # Run as Service
 
-`docker stack deploy -c docker-compose.yml nginx-proxy`
+1. Create proxy network: `docker network create -d overlay customized-proxy`
+2. Start service: `docker stack deploy -c docker-compose.yml customized-proxy`
 
 A good tutorial on running multiple other services that'll be proxied: [Host multiple websites on one VPS with Docker and Nginx](https://blog.ssdnodes.com/blog/host-multiple-websites-docker-nginx/)

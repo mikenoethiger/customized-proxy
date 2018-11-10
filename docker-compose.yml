@@ -2,13 +2,12 @@ version: "3"
 services:
   nginx-proxy:
     image: mikenoethiger/customized-proxy
-    container_name: nginx-proxy
     ports:
       - "80:80"
     volumes:
       - /var/run/docker.sock:/tmp/docker.sock:ro
 
 networks:
-  default:
+  customized-proxy:
     external:
-      name: nginx-proxy
+      name: customized-proxy

@@ -1,6 +1,6 @@
 # About
 
-Customized [jwilder/nginx-proxy](https://github.com/jwilder/nginx-proxy) docker image in order to increase client_max_body_size.
+Customized [jwilder/nginx-proxy](https://github.com/jwilder/nginx-proxy) docker image in order to increase client_max_body_size. Purpose of this project is to create a single access point which routes requests based on domain names to other docker containers. So you can manage multiple application on the same server.
 
 # Build
 
